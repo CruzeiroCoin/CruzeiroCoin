@@ -1,0 +1,34 @@
+src/*.exe
+src/cruzeirocoin
+src/cruzeirocoind
+src/test_cruzeirocoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.cruzeirocoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+cruzeirocoin-qt
+Cruzeirocoin-Qt.app
+
+# Unit-tests
+Makefile.test
+cruzeirocoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
